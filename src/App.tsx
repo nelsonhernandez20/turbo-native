@@ -3,10 +3,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 
-import NativeNumbersScreen from './NativeNumbersScreen';
-import WebView from './WebView';
-import { linking } from './webScreen';
-import { Routes } from './webScreenRoutes';
+import NativeNumbersScreen from '../src/NativeNumbersScreen';
+import WebView from '../src/WebView';
+import { linking } from '../src/webScreen';
+import { Routes } from '../src/webScreenRoutes';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();

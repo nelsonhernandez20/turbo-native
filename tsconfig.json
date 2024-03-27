@@ -1,4 +1,8 @@
 {
   "compilerOptions": {},
-  "extends": "expo/tsconfig.base"
+  "extends": "expo/tsconfig.base",
+  "include": [
+    "App.tsx", // Agrega la ruta del archivo App.tsx
+    "src/**/*" // Mantén la inclusión de otros archivos dentro de la carpeta src si es necesario
+  ]
 }
